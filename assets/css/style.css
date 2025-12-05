@@ -217,9 +217,10 @@ a {
 .new_post_pic {
   width: 100%;
   height: 250px;
+  text-align: center;
 }
 .new_post_pic img {
-  width: 100%;
+  width: auto;
   height: 100%;
 }
 .new_post_body {
@@ -561,6 +562,63 @@ border-bottom: none;
 
 
 
+/*contactUs*/
+.contact_us{
+  padding-top: 30px;
+}
+.contact_us h1{
+margin-bottom: 20px;
+font-size: 26px;
+
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.contact_inputs{
+  width: 50%;
+  margin-bottom:10px ;
+}
+.contact_inputs label{
+  display: block;
+  margin-bottom: 5px;
+  color: #777;
+  
+}
+.contact_inputs input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  outline: none;
+}
+.contact_message{
+  width: 100%;
+  margin-bottom:20px
+}
+.contact_message textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  outline: none;
+  min-height: 150px;
+}
+.contact_btn input{
+  border:none;
+  cursor: pointer;
+  color: #fff;
+  background-color: #0080ff;
+  padding: 10px 20px;
+  border-radius: 3px;
+  font-size: 18;
+}
+.contact_us hr{
+  border: 1px solid #ccc;
+  margin:30px 15px 30px 15px;
+}
+
 
 
 
@@ -660,6 +718,13 @@ border-bottom: none;
   .main_footer_mid {
     width: 100%;
   }
+  .row{
+    flex-direction: column;
+  }
+  .contact_inputs{
+    width: 100%;
+  }
+
 }
 @media  screen and (max-width:420px) {
   .single_product_pic img{
