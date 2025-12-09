@@ -1,0 +1,424 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../assets/css/style.css" />
+
+    <title>shop Maryam</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <div class="container">
+          <button class="hamber_menu">
+            <img src="../assets/images/icons/hamberMenu.png" alt="menu icon" />
+          </button>
+          <div class="header_logo">
+            <img src="../assets/images/logo.png" alt="shop Maryam" />
+          </div>
+          <nav>
+            <ul class="header_nav">
+              <li>
+                <i
+                  style="
+                    background-image: url(../assets/images/icons/home.svg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                  "
+                  class="header_icon"
+                ></i
+                ><a href="#">صفحه اصلی</a>
+              </li>
+              <li>
+                <i
+                  style="
+                    background-image: url(../assets/images/icons/shopping-bag.svg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                  "
+                  class="header_icon"
+                ></i
+                ><a href="#">محصولات</a>
+              </li>
+              <li class="drop_down">
+                <span>دسته ها</span><i class="drop_down_icon"></i>
+                <ul class="drop_down_menu">
+                  <li><a href="#">لباس دخترانه</a></li>
+                  <li><a href="#">لباس پسرانه</a></li>
+                  <li><a href="#">اسباب بازی</a></li>
+                  <li><a href="#">کفش و کتانی</a></li>
+                  <li><a href="#">لوازم تحریر</a></li>
+                </ul>
+              </li>
+              <li>
+                <i
+                  style="
+                    background-image: url(../assets/images/icons/phone.svg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                  "
+                  class="header_icon"
+                ></i
+                ><a href="#">تماس با ما</a>
+              </li>
+            </ul>
+          </nav>
+
+          <button class="login_btn">ثبت نام | ورود</button>
+        </div>
+      </div>
+
+      <div class="breadcrumbs">
+        <div class="container">
+          <a href="#">صفحه اصلی</a><a href="#">دسته بندی ها</a
+          ><span>لباس های دخترانه</span>
+        </div>
+      </div>
+
+      <div class="category_section">
+
+        <div class="container">
+
+
+          <div class="cat_flex">
+
+            <div class="cat_sidebar">
+              <div class="cat_sidebar_filters">
+                <div class="cat_sidebar_boxes">
+                  <h3>نوع لباس</h3>
+                  <ul>
+                    <li>
+                      <input name="bluses" id="sort_1" type="checkbox">
+                      <label for="sort_1">پیراهن</label>
+                    </li>
+
+                    <li>
+                      <input name="pants" id="sort_2" type="checkbox">
+                      <label for="sort_2">شلوار</label>
+                    </li>
+
+                    <li>
+                      <input name="shoomiz" id="sort_3" type="checkbox">
+                      <label for="sort_3">شومیز</label>
+                    </li>
+
+                    <li>
+                      <input name="shoes" id="sort_4" type="checkbox">
+                      <label for="sort_4">کفش</label>
+                    </li>
+
+                    <li>
+                      <input name="coat" id="sort_5" type="checkbox">
+                      <label for="sort_5">کت</label>
+                    </li>
+
+                  </ul>
+            
+                </div>
+
+                <div class="cat_sidebar_boxes">
+                  <h3>مناسب برای</h3>
+                  <ul>
+                    <li>
+                      <input name="woman" id="suitable_1" type="checkbox">
+                      <label for="suitable_1">زنانه</label>
+                    </li>
+
+                    <li>
+                      <input name="man" id="suitable_2" type="checkbox">
+                      <label for="suitable_2">مردانه</label>
+                    </li>
+
+                    <li>
+                      <input name="baby" id="suitable_3" type="checkbox">
+                      <label for="suitable_3">نوزاد</label>
+                    </li>
+
+                    <li>
+                      <input name="girl" id="suitable_4" type="checkbox">
+                      <label for="suitable_4">دختر</label>
+                    </li>
+
+                    <li>
+                      <input name="boy" id="suitable_5" type="checkbox">
+                      <label for="suitable_5">پسر</label>
+                    </li>
+
+                  </ul>
+                  
+                </div>
+
+                <div class="cat_sidebar_boxes">
+                  <h3>برند</h3>
+                  <ul>
+                    <li>
+                      <input name="resereve" id="brand_1" type="checkbox">
+                      <label for="brand_1">رزرود</label>
+                    </li>
+
+                    <li>
+                      <input name="hm" id="brand_2" type="checkbox">
+                      <label for="brand_2">اچ ام</label>
+                    </li>
+
+                    <li>
+                      <input name="zara" id="brand_3" type="checkbox">
+                      <label for="brand_3">زارا</label>
+                    </li>
+
+                    <li>
+                      <input name="pepco" id="brand_4" type="checkbox">
+                      <label for="brand_4">پپکو</label>
+                    </li>
+
+                    <li>
+                      <input name="apranka" id="brand_5" type="checkbox">
+                      <label for="brand_5">آپرانکا</label>
+                    </li>
+
+                  </ul>
+                  
+                </div>
+
+              </div>
+            </div>
+
+            <div class="cat_content">
+
+             <div class="cat_col_post">
+                 <div class="new_post_card">
+              <div class="new_post_pic">
+                <img src="../assets/images/dress1.jpg" alt="Product 1" />
+              </div>
+              <div class="new_post_body">
+                <div>
+                  <p class="new_post_title">ست دخترانه</p>
+                  <p class="new_post_price">200,000 تومان</p>
+                  <div class="clearfix"></div>
+                </div>
+
+                <div>
+                  <p class="new_post_description">
+                    ست دخترانه شیک بیرون پوش مناسب 2 تا 8 سال
+                  </p>
+                  <p class="new_post_price_off">180,000 تومان</p>
+                </div>
+              </div>
+                 </div>
+              </div>
+
+              <div class="cat_col_post">
+                 <div class="new_post_card">
+              <div class="new_post_pic">
+                <img src="../assets/images/dress1.jpg" alt="Product 1" />
+              </div>
+              <div class="new_post_body">
+                <div>
+                  <p class="new_post_title">ست دخترانه</p>
+                  <p class="new_post_price">200,000 تومان</p>
+                  <div class="clearfix"></div>
+                </div>
+
+                <div>
+                  <p class="new_post_description">
+                    ست دخترانه شیک بیرون پوش مناسب 2 تا 8 سال
+                  </p>
+                  <p class="new_post_price_off">180,000 تومان</p>
+                </div>
+              </div>
+                 </div>
+              </div>
+
+              <div class="cat_col_post">
+                 <div class="new_post_card">
+              <div class="new_post_pic">
+                <img src="../assets/images/dress1.jpg" alt="Product 1" />
+              </div>
+              <div class="new_post_body">
+                <div>
+                  <p class="new_post_title">ست دخترانه</p>
+                  <p class="new_post_price">200,000 تومان</p>
+                  <div class="clearfix"></div>
+                </div>
+
+                <div>
+                  <p class="new_post_description">
+                    ست دخترانه شیک بیرون پوش مناسب 2 تا 8 سال
+                  </p>
+                  <p class="new_post_price_off">180,000 تومان</p>
+                </div>
+              </div>
+                 </div>
+              </div>
+
+              <div class="cat_col_post">
+                 <div class="new_post_card">
+              <div class="new_post_pic">
+                <img src="../assets/images/dress1.jpg" alt="Product 1" />
+              </div>
+              <div class="new_post_body">
+                <div>
+                  <p class="new_post_title">ست دخترانه</p>
+                  <p class="new_post_price">200,000 تومان</p>
+                  <div class="clearfix"></div>
+                </div>
+
+                <div>
+                  <p class="new_post_description">
+                    ست دخترانه شیک بیرون پوش مناسب 2 تا 8 سال
+                  </p>
+                  <p class="new_post_price_off">180,000 تومان</p>
+                </div>
+              </div>
+                 </div>
+              </div>
+
+              <div class="cat_col_post">
+                 <div class="new_post_card">
+              <div class="new_post_pic">
+                <img src="../assets/images/dress1.jpg" alt="Product 1" />
+              </div>
+              <div class="new_post_body">
+                <div>
+                  <p class="new_post_title">ست دخترانه</p>
+                  <p class="new_post_price">200,000 تومان</p>
+                  <div class="clearfix"></div>
+                </div>
+
+                <div>
+                  <p class="new_post_description">
+                    ست دخترانه شیک بیرون پوش مناسب 2 تا 8 سال
+                  </p>
+                  <p class="new_post_price_off">180,000 تومان</p>
+                </div>
+              </div>
+                 </div>
+              </div>
+
+              <div class="cat_col_post">
+                 <div class="new_post_card">
+              <div class="new_post_pic">
+                <img src="../assets/images/dress1.jpg" alt="Product 1" />
+              </div>
+              <div class="new_post_body">
+                <div>
+                  <p class="new_post_title">ست دخترانه</p>
+                  <p class="new_post_price">200,000 تومان</p>
+                  <div class="clearfix"></div>
+                </div>
+
+                <div>
+                  <p class="new_post_description">
+                    ست دخترانه شیک بیرون پوش مناسب 2 تا 8 سال
+                  </p>
+                  <p class="new_post_price_off">180,000 تومان</p>
+                </div>
+              </div>
+                 </div>
+              </div>
+
+
+              <div class="pagination">
+                <div class="pagination_item">
+                  <span><</span>
+                </div>
+
+                <div class="pagination_item">
+                  <span>1</span>
+                </div>
+
+                <div class="pagination_item pagination_item_selected">
+                  <span>2</span>
+                </div>
+
+                <div class="pagination_item">
+                  <span>3</span>
+                </div>
+
+                <div class="pagination_item">
+                  <span>></span>
+                </div>
+
+              </div>
+
+                
+              
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    <footer class="main_footer">
+        <div class="container">
+          <div class="main_footer_f_l">
+            <div class="main_footer_card">
+              <h4>درباره ما</h4>
+              <p>
+                فروشگاه آنلاین مریم شاپ با هدف ارائه بهترین محصولات کودکانه با
+                کیفیت عالی و قیمت مناسب راه اندازی شده است.
+              </p>
+            </div>
+          </div>
+
+          <div class="main_footer_mid">
+            <div class="main_footer_card">
+              <h4>دسته بندی ها</h4>
+              <ul>
+                <li><a href="#">لباس دخترانه</a></li>
+                <li><a href="#">لباس پسرانه</a></li>
+                <li><a href="#">اسباب بازی</a></li>
+                <li><a href="#">کفش و کتانی</a></li>
+                <li><a href="#">لوازم تحریر</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="main_footer_mid">
+            <div class="main_footer_card">
+              <h4>راه های ارتباطی</h4>
+              <ul>
+                <li><span>تلفن: 0123456789</span></li>
+                <li><span>ایمیل: info@maryamshop.com</span></li>
+                <li><span>آدرس: تهران، خیابان انقلاب، پلاک 123</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="main_footer_f_l">
+            <div class="main_footer_card">
+              <div class="main_footer_card_namad">
+                <img src="../assets/images/ENAMAD.png" alt="نماد اعتماد" />
+                <img
+                  src="../assets/images/samandehi.png"
+                  alt="درگاه ساماندهی"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <hr class="footer_line" />
+          <div class="under_footer">
+            <p>تمامی حقوق این سایت محفوظ می‌باشد.</p>
+            <div class="footer_social_items">
+              <a href="#"
+                ><img
+                  src="../assets/images/icons/instagram.svg"
+                  alt="اینستاگرام"
+              /></a>
+              <a href="#"
+                ><img src="../assets/images/icons/twitter.svg" alt="توییتر"
+              /></a>
+              <a href="#"
+                ><img src="../assets/images/icons/telegram.svg" alt="تلگرام"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
