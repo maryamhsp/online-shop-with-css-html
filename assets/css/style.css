@@ -888,6 +888,7 @@ flex-wrap: wrap;
 }
 .about_us_content{
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   height: 500px;
 }
@@ -900,16 +901,18 @@ flex-wrap: wrap;
   font-size: 20px;
   margin: 30px 0;
   padding-left: 100px;
+  background-color: #0080ff;
   
 }
 
 .about_us_content_left{
   width: 50%;
   height: 500px;
- 
+ background-color: #00cc66;
 }
 .about_us_content_left img{
-  width: 100%;
+  width: 60%;
+  padding: 10px;
   height: auto;
 }
 
